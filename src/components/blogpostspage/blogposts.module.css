@@ -1,0 +1,31 @@
+.postList{
+
+    list-style: none;
+
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 21vh;
+    margin-bottom: 10vh;
+
+}
+
+.post{
+
+    display: block;
+    margin: 1.5rem;
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem 3rem;
+    border: 0.15rem var(--clrsecondary) solid;
+    border-radius: 0.6rem;
+    font-weight: 300;
+
+}
+
+.post:hover{
+
+    background-color: var(--clrneutral30);
+    border-color: var(--clraccent);
+    font-weight: 600;
+}

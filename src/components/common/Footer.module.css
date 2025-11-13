@@ -1,0 +1,20 @@
+.footer{
+
+    width: 100%;
+
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border: 0.15rem var(--clrprimary) solid;
+    border-radius: 0.6rem;
+    background-color: var(--clrsecondary);
+    color: whitesmoke;
+
+    font-weight: 360;
+
+}

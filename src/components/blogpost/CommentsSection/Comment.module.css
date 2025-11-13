@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+.line1{
+
+    color: var(--clrneutral30);
+    margin: 1rem 0rem;
+    width: 100%;
+
+}
+
+.line2{
+
+    color: var(--clrneutral30);
+    padding: 0.25rem 0rem;
+
+}
+
+.commentsHeading{
+
+    text-align: center;
+    padding: 1rem 0.5rem 0rem 0rem;
+    font-size: larger;
+
+}
+
+.addcomment{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 1.2rem;
+
+    padding: 1rem;
+}
+
+.inputField{
+
+    border: 0.09rem var(--clrneutral30) solid;
+    border-radius: 0.3rem;
+    padding: 0.1rem;
+
+}
+
+
+.commentButton{
+
+    margin-top: 1rem;
+    border: 0.15rem var(--clrneutral30) solid;
+    border-radius: 0.6rem;
+
+}
+
+.commentButton:hover{
+
+    background-color: var(--clrneutral30);
+    border-color: var(--clraccent);
+    font-weight: 360;
+}
+
+.comment {
+
+    border: 0.15rem var(--clrneutral30) solid;
+    border-radius: 0.6rem;
+
+    padding: 1rem;
+
+    margin: 1rem;
+
+}
+
+.commentLike{
+
+    padding-top: 0.6rem;
+
+}
+
+.commentLike:hover{
+
+    color: var(--clraccent);
+
+}

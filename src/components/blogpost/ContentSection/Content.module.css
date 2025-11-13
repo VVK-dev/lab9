@@ -1,0 +1,30 @@
+.blogcontent{
+
+    margin-top: 0.5rem;
+    padding: 1rem;
+    border: 0.15rem var(--clrneutral30) solid;
+    border-radius: 0.6rem;
+    text-align: center;
+
+}
+
+.heading{
+
+    font-size: xx-large;
+    width: 100%;
+
+}
+
+.meta{
+
+    margin: 0.5rem 1rem 0rem 0rem;
+
+}
+
+.content{
+
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+
+}

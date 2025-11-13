@@ -1,0 +1,78 @@
+.contact {
+
+    margin-top: 21vh;
+
+    background-color: var(--clrsecondary);
+    color: whitesmoke;
+
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+    border: 0.15rem var(--clrneutral30) solid;
+    border-radius: 0.6rem;
+
+}
+
+.contactHeader{
+
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 2.1rem;
+    font-weight: 600;
+
+    border-width: 0rem 0.24rem;
+    border-radius: 0.69rem;
+    border-color: var(--clraccent);
+    border-style: solid;
+
+}
+
+.contactForm{
+
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+    gap: 1rem;
+
+    border: 0.15rem var(--clrneutral30) solid;
+    border-radius: 0.6rem;
+
+}
+
+.contactInput{
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1rem;
+
+}
+
+.contactInputField{
+
+    border: 0.15rem var(--clrneutral30) solid;
+    border-radius: 0.3rem;
+
+}
+
+.contactSubmitButton{
+
+    background-color: transparent;
+    color: var(--clrneutral);
+
+    border-width: 0.1rem;
+    border-radius: 0.69rem;
+    border-color: var(--clrneutral30);
+    border-style: solid;
+
+    font-weight: 360;
+
+}
+
+.contactSubmitButton:hover{
+
+    border-color: var(--clraccent);
+    background-color: var(--clrneutral30);
+
+}

@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.blogPost{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 0.15rem var(--clrneutral30) solid;
+    border-radius: 0.6rem;
+
+    margin: 10rem 3.6rem;
+    padding: 1rem;
+
+    background-color: var(--clrsecondary);
+    color: whitesmoke;
+}
